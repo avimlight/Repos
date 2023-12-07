@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-    cout << sizeof(int) << endl;
+ cout << sizeof(int) << endl;
     ;
     cout << sizeof(float) << endl;
     cout << sizeof(double) << endl;
@@ -21,5 +21,17 @@ int main()
     cout << int(c) << endl;
     // conversion to the string is
     cout << to_string(1) << endl;
+    int n;
+    cin >> n;
+    cout << n << endl;
+
+    string s;
+    cin >> s;
+    cout << s << endl;
+    now this si a tricker part where after space whatever words wont be considered so we use getline fn
+        string sa;
+    getline(cin, sa);
+    cout << sa;
+
     return 0;
 }
